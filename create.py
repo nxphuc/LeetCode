@@ -61,9 +61,9 @@ def stringify(content, language):
     content = content.replace('<sup>', '^').replace('</sup>', '')
     soup = BeautifulSoup(content, features="html.parser")
     for ele in soup.find_all('li'):
-        ele.string = '- ' + ele.string
+        ele.string = '- ' + ele.get_text()
     content = soup.get_text().replace('\n\n', '\n').strip().split('\n')
-    content = [('# ' if language == 'py' else '* ') + line for line in content]
+    content = [('# ' if language == 'py' else ' * ') + line for line in content]
     if language != 'py':
         content.insert(0, '/**')
         content.append('**/')
@@ -71,7 +71,7 @@ def stringify(content, language):
 
 
 def fetch_problem(url):
-    match = re.match(f'^{PROBLEMS_URL}\S+\/?$', url, re.IGNORECASE)
+    match = re.match(f'^{PROBLEMS_URL}\/[a-zA-Z0-9\-]+\/?$', url, re.IGNORECASE)
     if not match:
         print(f"Invalid url, expected '{PROBLEMS_URL}/<problem_name>")
         exit(0)
@@ -115,14 +115,20 @@ def generate_source_file(problem, language):
         f'Difficulty: {problem["difficulty"]}',
         f'Tags: {", ".join(map(getTag, problem["topicTags"]))}',
         f'Author: nxphuc',
+        f'Time Complexity: ',
+        f'Space Complexity: ',
+        f'Note: '
     ]
     line_comment = '#' if language == 'py' else '//'
 
     headers = [line_comment + ' ' + header for header in headers]
     statement = stringify(problem["content"], language)
+
     code_snippet = [snippet["code"] for snippet in problem["codeSnippets"] if snippet["langSlug"] == LANGUAGE_CHOICES.get(language)]
+    if language == 'cpp':
+        code_snippet.insert(0, '#include <bits/stdc++.h>\nusing namespace std;\n')
     file_name = f'{problem["questionId"]:>04}-{problem["titleSlug"]}.{language}'
-    with open(f'solutions/{file_name}', 'w', newline='\n') as f:
+    with open(f'solutions/{file_name}', 'w', newline='\n', encoding='utf-8') as f:
         f.write('\n'.join(headers))
         f.write('\n\n')
         f.write('\n'.join(statement))
