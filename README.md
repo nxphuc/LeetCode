@@ -1,6 +1,7 @@
 # LeetCode Solutions
 
 Author: [github.com/nxphuc](https://github.com/nxphuc)
+
 My solution for LeetCode's problems
 
 | # | Title | Solution | Time | Space | Difficulty | Tag | Topic |

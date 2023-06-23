@@ -4,6 +4,7 @@ TEMPLATE = [
     "# LeetCode Solutions",
     "",
     "Author: [github.com/nxphuc](https://github.com/nxphuc)",
+    "",
     "My solution for LeetCode's problems",
     "",
     "| # | Title | Solution | Time | Space | Difficulty | Tag | Topic |",
@@ -34,7 +35,7 @@ def main():
     for sol in solutions:
         markdown.append(gen_markdown_line(sol))
     
-    with open('README', 'w', encoding='utf-8', newline='\n') as f:
+    with open('README.md', 'w', encoding='utf-8', newline='\n') as f:
         f.write('\n'.join(markdown))
 
 
