@@ -34,7 +34,7 @@ def main():
     for sol in solutions:
         markdown.append(gen_markdown_line(sol))
     
-    with open('README', 'w', encoding='utf-8') as f:
+    with open('README', 'w', encoding='utf-8', newline='\n') as f:
         f.write('\n'.join(markdown))
 
 
