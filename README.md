@@ -58,3 +58,23 @@ Note: Space complexity is extra space
 | 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image) | [C++](./solutions/0048-rotate-image.cpp) | _O(N * N)_ | _O(1)_ | Medium | Array, Math, Matrix |  |
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | [C++](./solutions/0049-group-anagrams.cpp) | _O(N * MlogM)_ | _O(N * M)_ | Medium | Array, Hash Table, String, Sorting |  |
 | 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | [C++](./solutions/0050-powx-n.cpp) | _O(logN)_ | _O(logN)_ | Medium | Math, Recursion |  |
+| 0051 | [N-Queens](https://leetcode.com/problems/n-queens) | [C++](./solutions/0051-n-queens.cpp) | | | Hard | Array, Backtracking |  |
+| 0052 | [N-Queens II](https://leetcode.com/problems/n-queens-ii) | [C++](./solutions/0052-n-queens-ii.cpp) | | | Hard | Backtracking |  |
+| 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | [C++](./solutions/0053-maximum-subarray.cpp) | _O(N)_ | _O(1)_ | Medium | Array, Divide and Conquer, Dynamic Programming |  |
+| 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) | [C++](./solutions/0054-spiral-matrix.cpp) | _O(M * N)_ | _O(1)_ | Medium | Array, Matrix, Simulation |  |
+| 0055 | [Jump Game](https://leetcode.com/problems/jump-game) | [C++](./solutions/0055-jump-game.cpp) | _O(N)_ | _O(1)_ | Medium | Array, Dynamic Programming, Greedy |  |
+| 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | [C++](./solutions/0056-merge-intervals.cpp) | _O(NlogN)_ | _O(1)_ | Medium | Array, Sorting |  |
+| 0057 | [Insert Interval](https://leetcode.com/problems/insert-interval) | [C++](./solutions/0057-insert-interval.cpp) | _O(N)_ | _O(1)_ | Medium | Array |  |
+| 0058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | [C++](./solutions/0058-length-of-last-word.cpp) | _O(N)_ | _O(1)_ | Easy | String |  |
+| 0059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii) | [C++](./solutions/0059-spiral-matrix-ii.cpp) | _O(N^2)_ | _O(1)_ | Medium | Array, Matrix, Simulation |  |
+| 0060 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence) | [C++](./solutions/0060-permutation-sequence.cpp) | _O(N^2)_ | _O(N)_ | Hard | Math, Recursion |  |
+| 0061 | [Rotate List](https://leetcode.com/problems/rotate-list) | [C++](./solutions/0061-rotate-list.cpp) | _O(N)_ | _O(1)_ | Medium | Linked List, Two Pointers |  |
+| 0062 | [Unique Paths](https://leetcode.com/problems/unique-paths) | [C++](./solutions/0062-unique-paths.cpp) | _O(min(N, M))_ | _O(1)_ | Medium | Math, Dynamic Programming, Combinatorics |  |
+| 0063 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | [C++](./solutions/0063-unique-paths-ii.cpp) | _O(N * M)_ | _O(M)_ | Medium | Array, Dynamic Programming, Matrix |  |
+| 0064 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | [C++](./solutions/0064-minimum-path-sum.cpp) | _O(N * M)_ | _O(M)_ | Medium | Array, Dynamic Programming, Matrix |  |
+| 0065 | [Valid Number](https://leetcode.com/problems/valid-number) | [C++](./solutions/0065-valid-number.cpp) | _O(N)_ | | Hard | String |  |
+| 0066 | [Plus One](https://leetcode.com/problems/plus-one) | [C++](./solutions/0066-plus-one.cpp) | _O(N)_ | _O(1)_ | Easy | Array, Math |  |
+| 0067 | [Add Binary](https://leetcode.com/problems/add-binary) | [C++](./solutions/0067-add-binary.cpp) | _O(max(N, M))_ | _O(1)_ | Easy | Math, String, Bit Manipulation, Simulation |  |
+| 0068 | [Text Justification](https://leetcode.com/problems/text-justification) | [C++](./solutions/0068-text-justification.cpp) | _O(N)_ | _O(1)_ | Hard | Array, String, Simulation |  |
+| 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | [C++](./solutions/0069-sqrtx.cpp) | _O(logN)_ | _O(1)_ | Easy | Math, Binary Search |  |
+| 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [C++](./solutions/0070-climbing-stairs.cpp) | _O(N)_ | _O(1)_ | Easy | Math, Dynamic Programming, Memoization |  |
