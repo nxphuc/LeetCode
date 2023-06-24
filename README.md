@@ -58,8 +58,8 @@ Note: Space complexity is extra space
 | 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image) | [C++](./solutions/0048-rotate-image.cpp) | _O(N * N)_ | _O(1)_ | Medium | Array, Math, Matrix |  |
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | [C++](./solutions/0049-group-anagrams.cpp) | _O(N * MlogM)_ | _O(N * M)_ | Medium | Array, Hash Table, String, Sorting |  |
 | 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | [C++](./solutions/0050-powx-n.cpp) | _O(logN)_ | _O(logN)_ | Medium | Math, Recursion |  |
-| 0051 | [N-Queens](https://leetcode.com/problems/n-queens) | [C++](./solutions/0051-n-queens.cpp) | | | Hard | Array, Backtracking |  |
-| 0052 | [N-Queens II](https://leetcode.com/problems/n-queens-ii) | [C++](./solutions/0052-n-queens-ii.cpp) | | | Hard | Backtracking |  |
+| 0051 | [N-Queens](https://leetcode.com/problems/n-queens) | [C++](./solutions/0051-n-queens.cpp) | _O(N! * N)_ | _O(N)_ | Hard | Array, Backtracking |  |
+| 0052 | [N-Queens II](https://leetcode.com/problems/n-queens-ii) | [C++](./solutions/0052-n-queens-ii.cpp) | _O(N! * N)_ | _O(N)_ | Hard | Backtracking |  |
 | 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | [C++](./solutions/0053-maximum-subarray.cpp) | _O(N)_ | _O(1)_ | Medium | Array, Divide and Conquer, Dynamic Programming |  |
 | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) | [C++](./solutions/0054-spiral-matrix.cpp) | _O(M * N)_ | _O(1)_ | Medium | Array, Matrix, Simulation |  |
 | 0055 | [Jump Game](https://leetcode.com/problems/jump-game) | [C++](./solutions/0055-jump-game.cpp) | _O(N)_ | _O(1)_ | Medium | Array, Dynamic Programming, Greedy |  |

@@ -3,8 +3,8 @@
 // Difficulty: Hard
 // Tags: Backtracking
 // Author: nxphuc
-// Time Complexity: 
-// Space Complexity: 
+// Time Complexity: O(N! * N)
+// Space Complexity: O(N)
 // Note: 
 
 /**
