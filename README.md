@@ -38,3 +38,23 @@ Note: Space complexity is extra space
 | 0028 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | [C++](./solutions/0028-find-the-index-of-the-first-occurrence-in-a-string.cpp) | _O(N + M)_ | _O(M)_ | Easy | Two Pointers, String, String Matching |  |
 | 0029 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers) | [C++](./solutions/0029-divide-two-integers.cpp) | _O(logN)_ | _O(1)_ | Medium | Math, Bit Manipulation |  |
 | 0030 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words) | [C++](./solutions/0030-substring-with-concatenation-of-all-words.cpp) | _O(N*M)_ | _O(N)_ | Hard | Hash Table, String, Sliding Window |  |
+| 0031 | [Next Permutation](https://leetcode.com/problems/next-permutation) | [C++](./solutions/0031-next-permutation.cpp) | _O(N)_ | _O(1)_ | Medium | Array, Two Pointers |  |
+| 0032 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | [C++](./solutions/0032-longest-valid-parentheses.cpp) | _O(N)_ | _O(N)_ | Hard | String, Dynamic Programming, Stack |  |
+| 0033 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | [C++](./solutions/0033-search-in-rotated-sorted-array.cpp) | _O(logN)_ | _O(1)_ | Medium | Array, Binary Search |  |
+| 0034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | [C++](./solutions/0034-find-first-and-last-position-of-element-in-sorted-array.cpp) | _O(logN)_ | _O(1)_ | Medium | Array, Binary Search |  |
+| 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position) | [C++](./solutions/0035-search-insert-position.cpp) | _O(logN)_ | _O(1)_ | Easy | Array, Binary Search |  |
+| 0036 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | [C++](./solutions/0036-valid-sudoku.cpp) | | | Medium | Array, Hash Table, Matrix |  |
+| 0037 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) | [C++](./solutions/0037-sudoku-solver.cpp) | | | Hard | Array, Hash Table, Backtracking, Matrix |  |
+| 0038 | [Count and Say](https://leetcode.com/problems/count-and-say) | [C++](./solutions/0038-count-and-say.cpp) | | | Medium | String |  |
+| 0039 | [Combination Sum](https://leetcode.com/problems/combination-sum) | [C++](./solutions/0039-combination-sum.cpp) | | | Medium | Array, Backtracking |  |
+| 0040 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii) | [C++](./solutions/0040-combination-sum-ii.cpp) | | | Medium | Array, Backtracking |  |
+| 0041 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive) | [C++](./solutions/0041-first-missing-positive.cpp) | _O(N)_ | _O(1)_ | Hard | Array, Hash Table |  |
+| 0042 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) | [C++](./solutions/0042-trapping-rain-water.cpp) | _O(N)_ | _O(1)_ | Hard | Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack |  |
+| 0043 | [Multiply Strings](https://leetcode.com/problems/multiply-strings) | [C++](./solutions/0043-multiply-strings.cpp) | _O(N * M)_ | _O(1)_ | Medium | Math, String, Simulation |  |
+| 0044 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | [C++](./solutions/0044-wildcard-matching.cpp) | _O(N * M)_ | _O(N * M)_ | Hard | String, Dynamic Programming, Greedy, Recursion |  |
+| 0045 | [Jump Game II](https://leetcode.com/problems/jump-game-ii) | [C++](./solutions/0045-jump-game-ii.cpp) | _O(N)_ | _O(1)_ | Medium | Array, Dynamic Programming, Greedy |  |
+| 0046 | [Permutations](https://leetcode.com/problems/permutations) | [C++](./solutions/0046-permutations.cpp) | _O(N! * N)_ | _O(1)_ | Medium | Array, Backtracking |  |
+| 0047 | [Permutations II](https://leetcode.com/problems/permutations-ii) | [C++](./solutions/0047-permutations-ii.cpp) | _O(N! * N)_ | _O(1)_ | Medium | Array, Backtracking |  |
+| 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image) | [C++](./solutions/0048-rotate-image.cpp) | _O(N * N)_ | _O(1)_ | Medium | Array, Math, Matrix |  |
+| 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | [C++](./solutions/0049-group-anagrams.cpp) | _O(N * MlogM)_ | _O(N * M)_ | Medium | Array, Hash Table, String, Sorting |  |
+| 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | [C++](./solutions/0050-powx-n.cpp) | _O(logN)_ | _O(logN)_ | Medium | Math, Recursion |  |
