@@ -71,6 +71,10 @@ def stringify(content, language):
 
 
 def fetch_problem(url):
+    if not url:
+        print(f"Invalid url, expected '{PROBLEMS_URL}/<problem_name>")
+        exit(0)
+
     match = re.match(f'^{PROBLEMS_URL}\/[a-zA-Z0-9\-]+\/?$', url, re.IGNORECASE)
     if not match:
         print(f"Invalid url, expected '{PROBLEMS_URL}/<problem_name>")

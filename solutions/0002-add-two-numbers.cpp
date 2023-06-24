@@ -3,8 +3,8 @@
 // Difficulty: Medium
 // Tags: Linked List, Math, Recursion
 // Author: nxphuc
-// Time Complexity: O(max(n, m))
-// Space Complexity: O(n)
+// Time Complexity: O(max(N, M))
+// Space Complexity: O(1)
 // Topic: Linked List
 
 /**
@@ -32,16 +32,17 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
+
+// Definition for singly-linked list.
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode() : val(0), next(nullptr) {}
+    ListNode(int x) : val(x), next(nullptr) {}
+    ListNode(int x, ListNode *next) : val(x), next(next) {}
+};
+
+
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {

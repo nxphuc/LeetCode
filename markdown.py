@@ -3,9 +3,11 @@ import os
 TEMPLATE = [
     "# LeetCode Solutions",
     "",
-    "Author: [github.com/nxphuc](https://github.com/nxphuc)",
+    "Author: [nxphuc](https://github.com/nxphuc)",
     "",
     "My solution for LeetCode's problems",
+    "",
+    "Note: Space complexity is extra space",
     "",
     "| # | Title | Solution | Time | Space | Difficulty | Tag | Topic |",
     "|---|------ | -------- | ---- | ----- | ---------- |---- | ----- |"
@@ -26,7 +28,10 @@ def gen_markdown_line(filename):
     id = filename.split('-')[0]
     language = LANG_DICT.get(filename.split('.')[-1])
     [title, url, difficulty, tags, _, time, space, topic] = metadata
-    return f'| {id} | [{title}]({url}) | [{language}](./solutions/{filename}) | {time} | {space} | {difficulty} | {tags} | {topic} |'
+    s = f'| {id} | [{title}]({url}) | [{language}](./solutions/{filename}) |'
+    s += f' _{time}_ |' if len(time) > 0 else ' |'
+    s += f' _{space}_ |' if len(space) > 0 else ' |'
+    return s + f' {difficulty} | {tags} | {topic} |'
 
 
 def main():

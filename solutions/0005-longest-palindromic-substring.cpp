@@ -3,8 +3,8 @@
 // Difficulty: Medium
 // Tags: String, Dynamic Programming
 // Author: nxphuc
-// Time Complexity: O(n)
-// Space Complexity: O(n)
+// Time Complexity: O(N)
+// Space Complexity: O(N)
 // Topic: Manacher
 
 /**

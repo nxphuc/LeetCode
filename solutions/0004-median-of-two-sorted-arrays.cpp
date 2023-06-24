@@ -3,7 +3,7 @@
 // Difficulty: Hard
 // Tags: Array, Binary Search, Divide and Conquer
 // Author: nxphuc
-// Time Complexity: O(log(m + n))
+// Time Complexity: O(log(M + N))
 // Space Complexity: O(1)
 // Topic: Binary Search
 

@@ -3,8 +3,8 @@
 // Difficulty: Hard
 // Tags: String, Dynamic Programming, Recursion
 // Author: nxphuc
-// Time Complexity: O(n * m)
-// Space Complexity: O(n * m)
+// Time Complexity: O(N*M)
+// Space Complexity: O(N*M)
 // Topic: Dynamic Programming
 
 /**

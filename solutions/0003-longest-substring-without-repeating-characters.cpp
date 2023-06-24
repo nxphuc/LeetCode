@@ -3,7 +3,7 @@
 // Difficulty: Medium
 // Tags: Hash Table, String, Sliding Window
 // Author: nxphuc
-// Time Complexity: O(n)
+// Time Complexity: O(N)
 // Space Complexity: O(1)
 // Topic:
 
