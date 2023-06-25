@@ -78,3 +78,33 @@ Note: Space complexity is extra space
 | 0068 | [Text Justification](https://leetcode.com/problems/text-justification) | [C++](./solutions/0068-text-justification.cpp) | _O(N)_ | _O(1)_ | Hard | Array, String, Simulation |  |
 | 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | [C++](./solutions/0069-sqrtx.cpp) | _O(logN)_ | _O(1)_ | Easy | Math, Binary Search |  |
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [C++](./solutions/0070-climbing-stairs.cpp) | _O(N)_ | _O(1)_ | Easy | Math, Dynamic Programming, Memoization |  |
+| 0071 | [Simplify Path](https://leetcode.com/problems/simplify-path) | [C++](./solutions/0071-simplify-path.cpp) | _O(N)_ | _O(N)_ | Medium | String, Stack |  |
+| 0072 | [Edit Distance](https://leetcode.com/problems/edit-distance) | [C++](./solutions/0072-edit-distance.cpp) | _O(N * M)_ | _O(N * M)_ | Medium | String, Dynamic Programming |  |
+| 0073 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | [C++](./solutions/0073-set-matrix-zeroes.cpp) | _O(N * M)_ | _O(1)_ | Medium | Array, Hash Table, Matrix |  |
+| 0074 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) | [C++](./solutions/0074-search-a-2d-matrix.cpp) | _O(log(M * N))_ | _O(1)_ | Medium | Array, Binary Search, Matrix |  |
+| 0075 | [Sort Colors](https://leetcode.com/problems/sort-colors) | [C++](./solutions/0075-sort-colors.cpp) | _O(N)_ | _O(1)_ | Medium | Array, Two Pointers, Sorting |  |
+| 0076 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) | [C++](./solutions/0076-minimum-window-substring.cpp) | _O(N + M)_ | _O(1)_ | Hard | Hash Table, String, Sliding Window |  |
+| 0077 | [Combinations](https://leetcode.com/problems/combinations) | [C++](./solutions/0077-combinations.cpp) | _O(nCk)_ | _O(1)_ | Medium | Backtracking |  |
+| 0078 | [Subsets](https://leetcode.com/problems/subsets) | [C++](./solutions/0078-subsets.cpp) | _O(2^N * N)_ | _O(1)_ | Medium | Array, Backtracking, Bit Manipulation |  |
+| 0079 | [Word Search](https://leetcode.com/problems/word-search) | [C++](./solutions/0079-word-search.cpp) | _O(4^|word|)_ | | Medium | Array, Backtracking, Matrix |  |
+| 0080 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) | [C++](./solutions/0080-remove-duplicates-from-sorted-array-ii.cpp) | _O(N)_ | _O(1)_ | Medium | Array, Two Pointers |  |
+| 0081 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) | [C++](./solutions/0081-search-in-rotated-sorted-array-ii.cpp) | _O(logN)/O(N)_ | _O(1)_ | Medium | Array, Binary Search |  |
+| 0082 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [C++](./solutions/0082-remove-duplicates-from-sorted-list-ii.cpp) | _O(N)_ | _O(1)_ | Medium | Linked List, Two Pointers |  |
+| 0083 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [C++](./solutions/0083-remove-duplicates-from-sorted-list.cpp) | _O(N)_ | _O(1)_ | Easy | Linked List |  |
+| 0084 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) | [C++](./solutions/0084-largest-rectangle-in-histogram.cpp) | _O(N)_ | _O(N)_ | Hard | Array, Stack, Monotonic Stack |  |
+| 0085 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle) | [C++](./solutions/0085-maximal-rectangle.cpp) | _O(N * M)_ | _O(M)_ | Hard | Array, Dynamic Programming, Stack, Matrix, Monotonic Stack |  |
+| 0086 | [Partition List](https://leetcode.com/problems/partition-list) | [C++](./solutions/0086-partition-list.cpp) | _O(N)_ | _O(1)_ | Medium | Linked List, Two Pointers |  |
+| 0087 | [Scramble String](https://leetcode.com/problems/scramble-string) | [C++](./solutions/0087-scramble-string.cpp) | _O(N^4)_ | _O(N^3)_ | Hard | String, Dynamic Programming |  |
+| 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | [C++](./solutions/0088-merge-sorted-array.cpp) | _O(N + M)_ | _O(1)_ | Easy | Array, Two Pointers, Sorting |  |
+| 0089 | [Gray Code](https://leetcode.com/problems/gray-code) | [C++](./solutions/0089-gray-code.cpp) | | | Medium | Math, Backtracking, Bit Manipulation |  |
+| 0090 | [Subsets II](https://leetcode.com/problems/subsets-ii) | [C++](./solutions/0090-subsets-ii.cpp) | _O(2^N)_ | _O(1)_ | Medium | Array, Backtracking, Bit Manipulation |  |
+| 0091 | [Decode Ways](https://leetcode.com/problems/decode-ways) | [C++](./solutions/0091-decode-ways.cpp) | _O(N)_ | _O(N)_ | Medium | String, Dynamic Programming |  |
+| 0092 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | [C++](./solutions/0092-reverse-linked-list-ii.cpp) | _O(N)_ | _O(1)_ | Medium | Linked List |  |
+| 0093 | [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses) | [C++](./solutions/0093-restore-ip-addresses.cpp) | _O(N^3)_ | _O(N)_ | Medium | String, Backtracking |  |
+| 0094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | [C++](./solutions/0094-binary-tree-inorder-traversal.cpp) | _O(N)_ | _O(N)_ | Easy | Stack, Tree, Depth-First Search, Binary Tree |  |
+| 0095 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii) | [C++](./solutions/0095-unique-binary-search-trees-ii.cpp) | | | Medium | Dynamic Programming, Backtracking, Tree, Binary Search Tree, Binary Tree |  |
+| 0096 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | [C++](./solutions/0096-unique-binary-search-trees.cpp) | _O(N^2)_ | _O(N^2)_ | Medium | Math, Dynamic Programming, Tree, Binary Search Tree, Binary Tree |  |
+| 0097 | [Interleaving String](https://leetcode.com/problems/interleaving-string) | [C++](./solutions/0097-interleaving-string.cpp) | _O(N * M)_ | _O(M)_ | Medium | String, Dynamic Programming |  |
+| 0098 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree) | [C++](./solutions/0098-validate-binary-search-tree.cpp) | _O(N)_ | _O(N)_ | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree |  |
+| 0099 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree) | [C++](./solutions/0099-recover-binary-search-tree.cpp) | _O(N)_ | _O(1)_ | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree |  |
+| 0100 | [Same Tree](https://leetcode.com/problems/same-tree) | [C++](./solutions/0100-same-tree.cpp) | _O(N)_ | _O(N)_ | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Tree |  |
