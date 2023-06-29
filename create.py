@@ -1,5 +1,6 @@
 # Python script to generate source code file for a given leetcode problem url
 
+import os
 import argparse
 import re
 import requests
@@ -14,6 +15,9 @@ BASE_QUERY = '\n'.join([
     '    question(titleSlug: $titleSlug) {',
     '        questionId',
     '        questionFrontendId',
+    '        judgerAvailable',
+    '        judgeType',
+    '        mysqlSchemas',
     '        title',
     '        titleSlug',
     '        content',
@@ -36,7 +40,9 @@ BASE_QUERY = '\n'.join([
 LANGUAGE_CHOICES = {
     "cpp": "cpp",
     "py": "python3",
-    "java": "java"
+    "java": "java",
+    'ts': 'ts',
+    'js': 'js'
 }
 
 def parse_args():
@@ -50,7 +56,7 @@ def parse_args():
                         default='cpp',
                         dest='language',
                         choices=LANGUAGE_CHOICES.keys(),
-                        help='Language to be used: cpp/python/java')
+                        help='Language to be used: C++/Python/Java/TypeScript/JavaScript')
     parser.add_argument('url',
                         nargs='?',
                         help='LeetCode problem\'s URL')
@@ -63,8 +69,9 @@ def stringify(content, language):
     for ele in soup.find_all('li'):
         ele.string = '- ' + ele.get_text()
     content = soup.get_text().replace('\n\n', '\n').strip().split('\n')
-    content = [('# ' if language == 'py' else ' * ') + line for line in content]
-    if language != 'py':
+    line_comment = '# ' if language in ['py', 'shell', 'sql'] else ' * '
+    content = [line_comment + line for line in content]
+    if line_comment != '# ':
         content.insert(0, '/**')
         content.append('**/')
     return content
@@ -112,18 +119,20 @@ def getTag(tag):
     return tag['name']
 
 
-def generate_source_file(problem, language):
+def generate_source_file(problem, category, language):
+    problemTags = map(getTag, problem["topicTags"])
+
     headers = [
         f'Title: {problem["title"]}',
         f'Source: {PROBLEMS_URL}/{problem["titleSlug"]}',
         f'Difficulty: {problem["difficulty"]}',
-        f'Tags: {", ".join(map(getTag, problem["topicTags"]))}',
+        f'Tags: {", ".join(problemTags)}',
         f'Author: nxphuc',
         f'Time Complexity: ',
         f'Space Complexity: ',
         f'Note: '
     ]
-    line_comment = '#' if language == 'py' else '//'
+    line_comment = '#' if language in ['py', 'shell', 'sql'] else '//'
 
     headers = [line_comment + ' ' + header for header in headers]
     statement = stringify(problem["content"], language)
@@ -132,7 +141,10 @@ def generate_source_file(problem, language):
     if language == 'cpp':
         code_snippet.insert(0, '#include <bits/stdc++.h>\nusing namespace std;\n')
     file_name = f'{problem["questionId"]:>04}-{problem["titleSlug"]}.{language}'
-    with open(f'solutions/{file_name}', 'w', newline='\n', encoding='utf-8') as f:
+
+    if not os.path.exists(category):
+        os.makedirs(category)
+    with open(f'{category}/{file_name}', 'w', newline='\n', encoding='utf-8') as f:
         f.write('\n'.join(headers))
         f.write('\n\n')
         f.write('\n'.join(statement))
@@ -140,10 +152,34 @@ def generate_source_file(problem, language):
         f.write('\n'.join(code_snippet))
 
 
+def get_problem_category(problem):
+    metadata = json.loads(problem['metaData'])
+
+    if metadata.get('shell'):
+        return 'shell'
+    if metadata.get('database'):
+        return 'database'
+    languages = metadata.get('languages')
+    if languages and len(languages) == 2 and 'javascript' in languages and 'typescript' in languages:
+        return 'javascript'
+    return 'algorithms'
+
+
 def main():
     args = parse_args()
     problem = fetch_problem(args.url)
-    generate_source_file(problem, args.language)
+    category = get_problem_category(problem)
+    language = args.language
+    if category == 'shell':
+        language = 'sh'
+    elif category == 'database':
+        language = 'sql'
+    elif category == 'javascript':
+        if language not in ['js', 'ts']:
+            print(f'Problem "{problem["questionId"]} - {problem["title"]}" only support JavaScript (js) and TypeScript (ts)')
+            return
+
+    generate_source_file(problem, category, language)
 
 
 if __name__ == '__main__':
