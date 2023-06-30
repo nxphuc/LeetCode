@@ -187,8 +187,53 @@ Note: Space complexity is extra space
 | 0198 | [House Robber](https://leetcode.com/problems/house-robber) | [C++](./solutions/./algorithms/0198-house-robber.cpp) | _O(N)_ | _O(1)_ | Medium | Array, Dynamic Programming |  |
 | 0199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view) | [C++](./solutions/./algorithms/0199-binary-tree-right-side-view.cpp) | _O(N)_ | _O(N)_ | Medium | Tree, Depth-First Search, Breadth-First Search, Binary Tree |  |
 | 0200 | [Number of Islands](https://leetcode.com/problems/number-of-islands) | [C++](./solutions/./algorithms/0200-number-of-islands.cpp) | _O(N * M)_ | _O(N * M)_ | Medium | Array, Depth-First Search, Breadth-First Search, Union Find, Matrix |  |
+| 0201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) | [C++](./solutions/./algorithms/0201-bitwise-and-of-numbers-range.cpp) | _O(logN)_ | _O(1)_ | Medium | Bit Manipulation |  |
+| 0202 | [Happy Number](https://leetcode.com/problems/happy-number) | [C++](./solutions/./algorithms/0202-happy-number.cpp) | _O(1)_ | _O(1)_ | Easy | Hash Table, Math, Two Pointers |  |
+| 0203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | [C++](./solutions/./algorithms/0203-remove-linked-list-elements.cpp) | | | Easy | Linked List, Recursion |  |
+| 0204 | [Count Primes](https://leetcode.com/problems/count-primes) | [C++](./solutions/./algorithms/0204-count-primes.cpp) | _O(NloglogN)_ | _O(N)_ | Medium | Array, Math, Enumeration, Number Theory |  |
+| 0205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) | [C++](./solutions/./algorithms/0205-isomorphic-strings.cpp) | _O(N)_ | _O(1)_ | Easy | Hash Table, String |  |
+| 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | [C++](./solutions/./algorithms/0206-reverse-linked-list.cpp) | _O(N)_ | _O(1)_ | Easy | Linked List, Recursion |  |
+| 0207 | [Course Schedule](https://leetcode.com/problems/course-schedule) | [C++](./solutions/./algorithms/0207-course-schedule.cpp) | _O(N + M)_ | _O(N)_ | Medium | Depth-First Search, Breadth-First Search, Graph, Topological Sort |  |
+| 0208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree) | [C++](./solutions/./algorithms/0208-implement-trie-prefix-tree.cpp) | _O(length(word))_ | _O(N)_ | Medium | Hash Table, String, Design, Trie |  |
+| 0209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) | [C++](./solutions/./algorithms/0209-minimum-size-subarray-sum.cpp) | _O(N)_ | _O(1)_ | Medium | Array, Binary Search, Sliding Window, Prefix Sum |  |
+| 0210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii) | [C++](./solutions/./algorithms/0210-course-schedule-ii.cpp) | _O(N + M)_ | _O(N)_ | Medium | Depth-First Search, Breadth-First Search, Graph, Topological Sort |  |
 | 0697 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array) | [C++](./solutions/./algorithms/0697-degree-of-an-array.cpp) | _O(N)_ | _O(N)_ | Easy | Array, Hash Table |  |
 | 2553 | [Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers) | [C++](./solutions/./algorithms/2553-total-cost-to-hire-k-workers.cpp) | _O(KlogC)_ | _O(C)_ | Medium | Array, Two Pointers, Heap (Priority Queue), Simulation | C = Candidates |
+<br/>
+   <div align="right">
+       <b><a href="#leetcode-solutions">▲ Back to Top</a></b>
+   </div>
+<br/>
+
+## Database
+
+| # | Title | Solution | Time | Space | Difficulty | Tag | Topic |
+|---|------ | -------- | ---- | ----- | ---------- |---- | ----- |
+| 0175 | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables) | [MySQL](./solutions/./database/0175-combine-two-tables.sql) | | | Easy | Database |  |
+| 0176 | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary) | [MySQL](./solutions/./database/0176-second-highest-salary.sql) | | | Medium | Database |  |
+| 0177 | [Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary) | [MySQL](./solutions/./database/0177-nth-highest-salary.sql) | | | Medium | Database |  |
+| 0178 | [Rank Scores](https://leetcode.com/problems/rank-scores) | [MySQL](./solutions/./database/0178-rank-scores.sql) | | | Medium | Database |  |
+| 0180 | [Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers) | [MySQL](./solutions/./database/0180-consecutive-numbers.sql) | | | Medium | Database |  |
+| 0181 | [Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers) | [MySQL](./solutions/./database/0181-employees-earning-more-than-their-managers.sql) | | | Easy | Database |  |
+| 0182 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails) | [MySQL](./solutions/./database/0182-duplicate-emails.sql) | | | Easy | Database |  |
+| 0183 | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order) | [MySQL](./solutions/./database/0183-customers-who-never-order.sql) | | | Easy | Database |  |
+| 0184 | [Department Highest Salary](https://leetcode.com/problems/department-highest-salary) | [MySQL](./solutions/./database/0184-department-highest-salary.sql) | | | Medium | Database |  |
+| 0196 | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails) | [MySQL](./solutions/./database/0196-delete-duplicate-emails.sql) | | | Easy | Database |  |
+| 0197 | [Rising Temperature](https://leetcode.com/problems/rising-temperature) | [MySQL](./solutions/./database/0197-rising-temperature.sql) | | | Easy | Database |  |
+<br/>
+   <div align="right">
+       <b><a href="#leetcode-solutions">▲ Back to Top</a></b>
+   </div>
+<br/>
+
+## Shell
+
+| # | Title | Solution | Time | Space | Difficulty | Tag | Topic |
+|---|------ | -------- | ---- | ----- | ---------- |---- | ----- |
+| 0192 | [Word Frequency](https://leetcode.com/problems/word-frequency) | [Shell](./solutions/./shell/0192-word-frequency.sh) | | | Medium | Shell |  |
+| 0193 | [Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers) | [Shell](./solutions/./shell/0193-valid-phone-numbers.sh) | | | Easy | Shell |  |
+| 0194 | [Transpose File](https://leetcode.com/problems/transpose-file) | [Shell](./solutions/./shell/0194-transpose-file.sh) | | | Medium | Shell |  |
+| 0195 | [Tenth Line](https://leetcode.com/problems/tenth-line) | [Shell](./solutions/./shell/0195-tenth-line.sh) | | | Easy | Shell |  |
 <br/>
    <div align="right">
        <b><a href="#leetcode-solutions">▲ Back to Top</a></b>

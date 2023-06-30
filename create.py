@@ -42,7 +42,9 @@ LANGUAGE_CHOICES = {
     "py": "python3",
     "java": "java",
     'ts': 'ts',
-    'js': 'js'
+    'js': 'js',
+    'sql': 'mysql',
+    'sh': 'bash'
 }
 
 def parse_args():
