@@ -29,7 +29,8 @@ LANG_DICT = {
 
 def gen_markdown_line(filename):
     metadata = []
-    with open(filename, 'r') as f:
+    print(filename)
+    with open(filename, 'r', encoding='utf-8') as f:
         for _ in range(8):
             line = f.readline()
             metadata.append(line[line.index(':') + 2:].strip())
