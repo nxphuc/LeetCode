@@ -15,7 +15,7 @@
  * And then read line by line: "PAHNAPLSIIGYIR"
  * Write the code that will take a string and make this conversion given a number of rows:
  * string convert(string s, int numRows);
- *  
+ * Â 
  * Example 1:
  * Input: s = "PAYPALISHIRING", numRows = 3
  * Output: "PAHNAPLSIIGYIR"
@@ -30,7 +30,7 @@
  * Example 3:
  * Input: s = "A", numRows = 1
  * Output: "A"
- *  
+ * Â 
  * Constraints:
  * - 1 <= s.length <= 1000
  * - s consists of English letters (lower-case and upper-case), ',' and '.'.
