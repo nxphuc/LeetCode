@@ -3,8 +3,8 @@
 // Difficulty: Easy
 // Tags: Hash Table, String
 // Author: nxphuc
-// Time Complexity: 
-// Space Complexity: 
+// Time Complexity: O(N)
+// Space Complexity: O(1)
 // Note: 
 
 /**

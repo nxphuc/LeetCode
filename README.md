@@ -208,7 +208,7 @@ Note: Space complexity is extra space
 | 0219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | [C++](./solutions/./algorithms/0219-contains-duplicate-ii.cpp) | _O(NlogN)_ | _O(N)_ | Easy | Array, Hash Table, Sliding Window |  |
 | 0220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii) | [C++](./solutions/./algorithms/0220-contains-duplicate-iii.cpp) | _O(NlogN)_ | _O(N)_ | Hard | Array, Sliding Window, Sorting, Bucket Sort, Ordered Set |  |
 | 0221 | [Maximal Square](https://leetcode.com/problems/maximal-square) | [C++](./solutions/./algorithms/0221-maximal-square.cpp) | _O(N * M)_ | _O(N * M)_ | Medium | Array, Dynamic Programming, Matrix |  |
-| 0222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes) | [C++](./solutions/./algorithms/0222-count-complete-tree-nodes.cpp) | | | Medium | Binary Search, Tree, Depth-First Search, Binary Tree |  |
+| 0222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes) | [C++](./solutions/./algorithms/0222-count-complete-tree-nodes.cpp) | _O(N)_ | _O(1)_ | Medium | Binary Search, Tree, Depth-First Search, Binary Tree |  |
 | 0223 | [Rectangle Area](https://leetcode.com/problems/rectangle-area) | [C++](./solutions/./algorithms/0223-rectangle-area.cpp) | _O(1)_ | _O(1)_ | Medium | Math, Geometry |  |
 | 0224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator) | [C++](./solutions/./algorithms/0224-basic-calculator.cpp) | _O(N)_ | _O(N)_ | Hard | Math, String, Stack, Recursion |  |
 | 0225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | [C++](./solutions/./algorithms/0225-implement-stack-using-queues.cpp) | | | Easy | Stack, Design, Queue |  |
@@ -219,16 +219,46 @@ Note: Space complexity is extra space
 | 0230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | [C++](./solutions/./algorithms/0230-kth-smallest-element-in-a-bst.cpp) | _O(h + k)_ | _O(h)_ | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree |  |
 | 0231 | [Power of Two](https://leetcode.com/problems/power-of-two) | [C++](./solutions/./algorithms/0231-power-of-two.cpp) | _O(1)_ | _O(1)_ | Easy | Math, Bit Manipulation, Recursion |  |
 | 0232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) | [C++](./solutions/./algorithms/0232-implement-queue-using-stacks.cpp) | | | Easy | Stack, Design, Queue |  |
-| 0233 | [Number of Digit One](https://leetcode.com/problems/number-of-digit-one) | [C++](./solutions/./algorithms/0233-number-of-digit-one.cpp) | | | Hard | Math, Dynamic Programming, Recursion |  |
-| 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | [C++](./solutions/./algorithms/0234-palindrome-linked-list.cpp) | | | Easy | Linked List, Two Pointers, Stack, Recursion |  |
+| 0233 | [Number of Digit One](https://leetcode.com/problems/number-of-digit-one) | [C++](./solutions/./algorithms/0233-number-of-digit-one.cpp) | _O(logN)_ | _O(1)_ | Hard | Math, Dynamic Programming, Recursion |  |
+| 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | [C++](./solutions/./algorithms/0234-palindrome-linked-list.cpp) | _O(N)_ | _O1_ | Easy | Linked List, Two Pointers, Stack, Recursion |  |
 | 0235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | [C++](./solutions/./algorithms/0235-lowest-common-ancestor-of-a-binary-search-tree.cpp) | _O(N)_ | _O(1)_ | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree |  |
 | 0236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | [C++](./solutions/./algorithms/0236-lowest-common-ancestor-of-a-binary-tree.cpp) | _O(N)_ | _O(N)_ | Medium | Tree, Depth-First Search, Binary Tree |  |
 | 0237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list) | [C++](./solutions/./algorithms/0237-delete-node-in-a-linked-list.cpp) | _O(1)_ | _O(1)_ | Medium | Linked List |  |
 | 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) | [C++](./solutions/./algorithms/0238-product-of-array-except-self.cpp) | _O(N)_ | _O(N)_ | Medium | Array, Prefix Sum |  |
 | 0239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum) | [C++](./solutions/./algorithms/0239-sliding-window-maximum.cpp) | _O(N)_ | _O(K)_ | Hard | Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue |  |
 | 0240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii) | [C++](./solutions/./algorithms/0240-search-a-2d-matrix-ii.cpp) | _O(N + M)_ | _O(1)_ | Medium | Array, Binary Search, Divide and Conquer, Matrix |  |
+| 0241 | [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses) | [C++](./solutions/./algorithms/0241-different-ways-to-add-parentheses.cpp) | | | Medium | Math, String, Dynamic Programming, Recursion, Memoization |  |
+| 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | [C++](./solutions/./algorithms/0242-valid-anagram.cpp) | _O(N)_ | _O(1)_ | Easy | Hash Table, String, Sorting |  |
+| 0257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths) | [C++](./solutions/./algorithms/0257-binary-tree-paths.cpp) | _O(N)_ | _O(N)_ | Easy | String, Backtracking, Tree, Depth-First Search, Binary Tree |  |
+| 0258 | [Add Digits](https://leetcode.com/problems/add-digits) | [C++](./solutions/./algorithms/0258-add-digits.cpp) | _O(1)_ | _O(1)_ | Easy | Math, Simulation, Number Theory |  |
+| 0260 | [Single Number III](https://leetcode.com/problems/single-number-iii) | [C++](./solutions/./algorithms/0260-single-number-iii.cpp) | _O(N)_ | _O(1)_ | Medium | Array, Bit Manipulation |  |
+| 0263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | [C++](./solutions/./algorithms/0263-ugly-number.cpp) | _O(logN)_ | _O(1)_ | Easy | Math |  |
+| 0264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii) | [C++](./solutions/./algorithms/0264-ugly-number-ii.cpp) | _O(N)_ | _O(N)_ | Medium | Hash Table, Math, Dynamic Programming, Heap (Priority Queue) |  |
+| 0268 | [Missing Number](https://leetcode.com/problems/missing-number) | [C++](./solutions/./algorithms/0268-missing-number.cpp) | _O(N)_ | _O(1)_ | Easy | Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting |  |
+| 0273 | [Integer to English Words](https://leetcode.com/problems/integer-to-english-words) | [C++](./solutions/./algorithms/0273-integer-to-english-words.cpp) | _O(logN)_ | _O(1)_ | Hard | Math, String, Recursion |  |
+| 0274 | [H-Index](https://leetcode.com/problems/h-index) | [C++](./solutions/./algorithms/0274-h-index.cpp) | _O(N)_ | _O(N)_ | Medium | Array, Sorting, Counting Sort |  |
+| 0275 | [H-Index II](https://leetcode.com/problems/h-index-ii) | [C++](./solutions/./algorithms/0275-h-index-ii.cpp) | _O(logN)_ | _O(1)_ | Medium | Array, Binary Search |  |
+| 0278 | [First Bad Version](https://leetcode.com/problems/first-bad-version) | [C++](./solutions/./algorithms/0278-first-bad-version.cpp) | _O(logN)_ | _O(1)_ | Easy | Binary Search, Interactive |  |
+| 0279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares) | [C++](./solutions/./algorithms/0279-perfect-squares.cpp) | _O(N*sqrt(N))_ | _O(N)_ | Medium | Math, Dynamic Programming, Breadth-First Search |  |
+| 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes) | [C++](./solutions/./algorithms/0283-move-zeroes.cpp) | _O(N)_ | _O(1)_ | Easy | Array, Two Pointers |  |
+| 0334 | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence) | [C++](./solutions/./algorithms/0334-increasing-triplet-subsequence.cpp) | _O(N)_ | _O(1)_ | Medium | Array, Greedy |  |
+| 0345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string) | [C++](./solutions/./algorithms/0345-reverse-vowels-of-a-string.cpp) | _O(N)_ | _O(1)_ | Easy | Two Pointers, String |  |
+| 0392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence) | [C++](./solutions/./algorithms/0392-is-subsequence.cpp) | _O(N)_ | _O(1)_ | Easy | Two Pointers, String, Dynamic Programming |  |
+| 0443 | [String Compression](https://leetcode.com/problems/string-compression) | [C++](./solutions/./algorithms/0443-string-compression.cpp) | _O(N)_ | _O(1)_ | Medium | Two Pointers, String |  |
+| 0605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers) | [C++](./solutions/./algorithms/0605-can-place-flowers.cpp) | _O(N)_ | _O(1)_ | Easy | Array, Greedy |  |
 | 0697 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array) | [C++](./solutions/./algorithms/0697-degree-of-an-array.cpp) | _O(N)_ | _O(N)_ | Easy | Array, Hash Table |  |
+| 0889 | [Buddy Strings](https://leetcode.com/problems/buddy-strings) | [C++](./solutions/./algorithms/0889-buddy-strings.cpp) | _O(N)_ | _O(1)_ | Easy | Hash Table, String |  |
+| 1146 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings) | [C++](./solutions/./algorithms/1146-greatest-common-divisor-of-strings.cpp) | _O(log(min(N, M)))_ | _O(1)_ | Easy | Math, String |  |
+| 1418 | [Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies) | [C++](./solutions/./algorithms/1418-fair-distribution-of-cookies.cpp) | | | Medium | Array, Dynamic Programming, Backtracking, Bit Manipulation, Bitmask |  |
+| 1528 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies) | [C++](./solutions/./algorithms/1528-kids-with-the-greatest-number-of-candies.cpp) | _O(N)_ | _O(1)_ | Easy | Array |  |
+| 1586 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element) | [C++](./solutions/./algorithms/1586-longest-subarray-of-1s-after-deleting-one-element.cpp) | _O(N)_ | _O(1)_ | Medium | Array, Dynamic Programming, Sliding Window |  |
+| 1723 | [Maximum Number of Achievable Transfer Requests](https://leetcode.com/problems/maximum-number-of-achievable-transfer-requests) | [C++](./solutions/./algorithms/1723-maximum-number-of-achievable-transfer-requests.cpp) | _O(N * 2^N)_ | _O(1)_ | Hard | Array, Backtracking, Bit Manipulation, Enumeration |  |
+| 1798 | [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs) | [C++](./solutions/./algorithms/1798-max-number-of-k-sum-pairs.cpp) | _O(N)_ | _O(N)_ | Medium | Array, Hash Table, Two Pointers, Sorting |  |
+| 1894 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately) | [C++](./solutions/./algorithms/1894-merge-strings-alternately.cpp) | _O(N + M)_ | _O(1)_ | Easy | Two Pointers, String |  |
+| 2134 | [Maximize the Confusion of an Exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam) | [C++](./solutions/./algorithms/2134-maximize-the-confusion-of-an-exam.cpp) | | | Medium | String, Binary Search, Sliding Window, Prefix Sum |  |
+| 2360 | [Substring With Largest Variance](https://leetcode.com/problems/substring-with-largest-variance) | [C++](./solutions/./algorithms/2360-substring-with-largest-variance.cpp) | _O(N * 26^2)_ | _O(1)_ | Hard | Array, Dynamic Programming |  |
 | 2553 | [Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers) | [C++](./solutions/./algorithms/2553-total-cost-to-hire-k-workers.cpp) | _O(KlogC)_ | _O(C)_ | Medium | Array, Two Pointers, Heap (Priority Queue), Simulation | C = Candidates |
+| 2681 | [Put Marbles in Bags](https://leetcode.com/problems/put-marbles-in-bags) | [C++](./solutions/./algorithms/2681-put-marbles-in-bags.cpp) | _O(NlogN)_ | _O(1)_ | Hard | Array, Greedy, Sorting, Heap (Priority Queue) |  |
 <br/>
    <div align="right">
        <b><a href="#leetcode-solutions">▲ Back to Top</a></b>
@@ -250,6 +280,7 @@ Note: Space complexity is extra space
 | 0184 | [Department Highest Salary](https://leetcode.com/problems/department-highest-salary) | [MySQL](./solutions/./database/0184-department-highest-salary.sql) | | | Medium | Database |  |
 | 0196 | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails) | [MySQL](./solutions/./database/0196-delete-duplicate-emails.sql) | | | Easy | Database |  |
 | 0197 | [Rising Temperature](https://leetcode.com/problems/rising-temperature) | [MySQL](./solutions/./database/0197-rising-temperature.sql) | | | Easy | Database |  |
+| 0262 | [Trips and Users](https://leetcode.com/problems/trips-and-users) | [MySQL](./solutions/./database/0262-trips-and-users.sql) | | | Hard | Database |  |
 <br/>
    <div align="right">
        <b><a href="#leetcode-solutions">▲ Back to Top</a></b>

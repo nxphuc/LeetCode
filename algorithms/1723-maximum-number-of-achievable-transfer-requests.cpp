@@ -3,8 +3,8 @@
 // Difficulty: Hard
 // Tags: Array, Backtracking, Bit Manipulation, Enumeration
 // Author: nxphuc
-// Time Complexity: 
-// Space Complexity: 
+// Time Complexity: O(N * 2^N)
+// Space Complexity: O(1)
 // Note: 
 
 /**

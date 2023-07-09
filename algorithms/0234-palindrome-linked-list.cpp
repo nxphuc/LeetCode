@@ -3,8 +3,8 @@
 // Difficulty: Easy
 // Tags: Linked List, Two Pointers, Stack, Recursion
 // Author: nxphuc
-// Time Complexity: 
-// Space Complexity: 
+// Time Complexity: O(N)
+// Space Complexity: O1
 // Note: 
 
 /**

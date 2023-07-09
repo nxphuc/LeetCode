@@ -3,8 +3,8 @@
 // Difficulty: Hard
 // Tags: Math, Dynamic Programming, Recursion
 // Author: nxphuc
-// Time Complexity: 
-// Space Complexity: 
+// Time Complexity: O(logN)
+// Space Complexity: O(1)
 // Note: 
 
 /**
