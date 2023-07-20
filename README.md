@@ -6,7 +6,7 @@ My solution for LeetCode's problems
 
 Note: Space complexity is extra space
 
-![](https://progress-bar.dev/12/?title=%20331%20/2782&width=120)
+![](https://progress-bar.dev/12/?title=%20done%20331%20/2782&width=120)
 
 ----------------------------
 
