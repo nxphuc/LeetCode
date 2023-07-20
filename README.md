@@ -6,6 +6,8 @@ My solution for LeetCode's problems
 
 Note: Space complexity is extra space
 
+![](https://progress-bar.dev/12/?title=%20331%20/2782&width=120)
+
 ----------------------------
 
 ## Algorithms
@@ -241,21 +243,34 @@ Note: Space complexity is extra space
 | 0278 | [First Bad Version](https://leetcode.com/problems/first-bad-version) | [C++](./solutions/./algorithms/0278-first-bad-version.cpp) | _O(logN)_ | _O(1)_ | Easy | Binary Search, Interactive |  |
 | 0279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares) | [C++](./solutions/./algorithms/0279-perfect-squares.cpp) | _O(N*sqrt(N))_ | _O(N)_ | Medium | Math, Dynamic Programming, Breadth-First Search |  |
 | 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes) | [C++](./solutions/./algorithms/0283-move-zeroes.cpp) | _O(N)_ | _O(1)_ | Easy | Array, Two Pointers |  |
+| 0289 | [Game of Life](https://leetcode.com/problems/game-of-life) | [C++](./solutions/./algorithms/0289-game-of-life.cpp) | _O(N * M)_ | _O(1)_ | Medium | Array, Matrix, Simulation |  |
+| 0290 | [Word Pattern](https://leetcode.com/problems/word-pattern) | [C++](./solutions/./algorithms/0290-word-pattern.cpp) | _O(N + M)_ | _O(N)_ | Easy | Hash Table, String |  |
+| 0295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream) | [C++](./solutions/./algorithms/0295-find-median-from-data-stream.cpp) | _O(NlogN)_ | _O(N)_ | Hard | Two Pointers, Design, Sorting, Heap (Priority Queue), Data Stream |  |
+| 0300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | [C++](./solutions/./algorithms/0300-longest-increasing-subsequence.cpp) | _O(NlogN)_ | _O(N)_ | Medium | Array, Binary Search, Dynamic Programming |  |
+| 0322 | [Coin Change](https://leetcode.com/problems/coin-change) | [C++](./solutions/./algorithms/0322-coin-change.cpp) | _(N * S)_ | _O(S)_ | Medium | Array, Dynamic Programming, Breadth-First Search |  |
 | 0328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list) | [C++](./solutions/./algorithms/0328-odd-even-linked-list.cpp) | _O(N)_ | _O(1)_ | Medium | Linked List |  |
 | 0334 | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence) | [C++](./solutions/./algorithms/0334-increasing-triplet-subsequence.cpp) | _O(N)_ | _O(1)_ | Medium | Array, Greedy |  |
 | 0338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | [C++](./solutions/./algorithms/0338-counting-bits.cpp) | _O(N)_ | _O(1)_ | Easy | Dynamic Programming, Bit Manipulation |  |
 | 0345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string) | [C++](./solutions/./algorithms/0345-reverse-vowels-of-a-string.cpp) | _O(N)_ | _O(1)_ | Easy | Two Pointers, String |  |
+| 0373 | [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums) | [C++](./solutions/./algorithms/0373-find-k-pairs-with-smallest-sums.cpp) | _O(KlogN)_ | _O(N)_ | Medium | Array, Heap (Priority Queue) |  |
 | 0374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower) | [C++](./solutions/./algorithms/0374-guess-number-higher-or-lower.cpp) | _O(logN)_ | _O(1)_ | Easy | Binary Search, Interactive |  |
+| 0380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1) | [C++](./solutions/./algorithms/0380-insert-delete-getrandom-o1.cpp) | _O(1)_ | _O(1)_ | Medium | Array, Hash Table, Math, Design, Randomized |  |
+| 0383 | [Ransom Note](https://leetcode.com/problems/ransom-note) | [C++](./solutions/./algorithms/0383-ransom-note.cpp) | _O(N + M)_ | _O(1)_ | Easy | Hash Table, String, Counting |  |
 | 0392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence) | [C++](./solutions/./algorithms/0392-is-subsequence.cpp) | _O(N)_ | _O(1)_ | Easy | Two Pointers, String, Dynamic Programming |  |
 | 0394 | [Decode String](https://leetcode.com/problems/decode-string) | [C++](./solutions/./algorithms/0394-decode-string.cpp) | _O(N)_ | _O(N)_ | Medium | String, Stack, Recursion |  |
 | 0399 | [Evaluate Division](https://leetcode.com/problems/evaluate-division) | [C++](./solutions/./algorithms/0399-evaluate-division.cpp) | _O(T*N)_ | _O(N)_ | Medium | Array, Depth-First Search, Breadth-First Search, Union Find, Graph, Shortest Path |  |
+| 0433 | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation) | [C++](./solutions/./algorithms/0433-minimum-genetic-mutation.cpp) | _O(N * len(S))_ | _O(N)_ | Medium | Hash Table, String, Breadth-First Search |  |
 | 0435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals) | [C++](./solutions/./algorithms/0435-non-overlapping-intervals.cpp) | _O(NlogN)_ | _O(1)_ | Medium | Array, Dynamic Programming, Greedy, Sorting |  |
 | 0437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii) | [C++](./solutions/./algorithms/0437-path-sum-iii.cpp) | _O(N)_ | _O(N)_ | Medium | Tree, Depth-First Search, Binary Tree |  |
 | 0443 | [String Compression](https://leetcode.com/problems/string-compression) | [C++](./solutions/./algorithms/0443-string-compression.cpp) | _O(N)_ | _O(1)_ | Medium | Two Pointers, String |  |
 | 0445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | [C++](./solutions/./algorithms/0445-add-two-numbers-ii.cpp) | _O(N + M)_ | _O(1)_ | Medium | Linked List, Math, Stack |  |
 | 0450 | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst) | [C++](./solutions/./algorithms/0450-delete-node-in-a-bst.cpp) | _O(N)_ | _O(N)_ | Medium | Tree, Binary Search Tree, Binary Tree |  |
+| 0452 | [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons) | [C++](./solutions/./algorithms/0452-minimum-number-of-arrows-to-burst-balloons.cpp) | _O(NlogN)_ | _O(1)_ | Medium | Array, Greedy, Sorting |  |
+| 0502 | [IPO](https://leetcode.com/problems/ipo) | [C++](./solutions/./algorithms/0502-ipo.cpp) | _O(NlogN + KlogN)_ | _O(N)_ | Hard | Array, Greedy, Sorting, Heap (Priority Queue) |  |
+| 0530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst) | [C++](./solutions/./algorithms/0530-minimum-absolute-difference-in-bst.cpp) | _O(N)_ | _O(N)_ | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree |  |
 | 0547 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces) | [C++](./solutions/./algorithms/0547-number-of-provinces.cpp) | _O(N)_ | _O(N)_ | Medium | Depth-First Search, Breadth-First Search, Union Find, Graph |  |
 | 0605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers) | [C++](./solutions/./algorithms/0605-can-place-flowers.cpp) | _O(N)_ | _O(1)_ | Easy | Array, Greedy |  |
+| 0637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) | [C++](./solutions/./algorithms/0637-average-of-levels-in-binary-tree.cpp) | _O(N)_ | _O(N)_ | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Tree |  |
 | 0643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i) | [C++](./solutions/./algorithms/0643-maximum-average-subarray-i.cpp) | _O(N)_ | _O(1)_ | Easy | Array, Sliding Window |  |
 | 0649 | [Dota2 Senate](https://leetcode.com/problems/dota2-senate) | [C++](./solutions/./algorithms/0649-dota2-senate.cpp) | _O(N)_ | _O(N)_ | Medium | String, Greedy, Queue |  |
 | 0697 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array) | [C++](./solutions/./algorithms/0697-degree-of-an-array.cpp) | _O(N)_ | _O(N)_ | Easy | Array, Hash Table |  |
@@ -263,7 +278,9 @@ Note: Space complexity is extra space
 | 0719 | [Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance) | [C++](./solutions/./algorithms/0719-find-k-th-smallest-pair-distance.cpp) | _O(NlogN + NlogM)_ | _O(1)_ | Hard | Array, Two Pointers, Binary Search, Sorting |  |
 | 0724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | [C++](./solutions/./algorithms/0724-find-pivot-index.cpp) | _O(N)_ | _O(1)_ | Easy | Array, Prefix Sum |  |
 | 0735 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision) | [C++](./solutions/./algorithms/0735-asteroid-collision.cpp) | _O(N)_ | _O(1)_ | Medium | Array, Stack, Simulation |  |
+| 0739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures) | [C++](./solutions/./algorithms/0739-daily-temperatures.cpp) | _O(N)_ | _O(N)_ | Medium | Array, Stack, Monotonic Stack |  |
 | 0747 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs) | [C++](./solutions/./algorithms/0747-min-cost-climbing-stairs.cpp) | _O(N)_ | _O(N)_ | Easy | Array, Dynamic Programming |  |
+| 0772 | [Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree) | [C++](./solutions/./algorithms/0772-construct-quad-tree.cpp) | _O(N^2)_ | _O(logN)_ | Medium | Array, Divide and Conquer, Tree, Matrix |  |
 | 0783 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree) | [C++](./solutions/./algorithms/0783-search-in-a-binary-search-tree.cpp) | _O(N)_ | _O(N)_ | Easy | Tree, Binary Search Tree, Binary Tree |  |
 | 0806 | [Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling) | [C++](./solutions/./algorithms/0806-domino-and-tromino-tiling.cpp) | _O(N)_ | _O(N)_ | Medium | Dynamic Programming |  |
 | 0820 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states) | [C++](./solutions/./algorithms/0820-find-eventual-safe-states.cpp) | _O(N)_ | _O(N)_ | Medium | Depth-First Search, Breadth-First Search, Graph, Topological Sort |  |
@@ -272,6 +289,9 @@ Note: Space complexity is extra space
 | 0893 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree) | [C++](./solutions/./algorithms/0893-all-nodes-distance-k-in-binary-tree.cpp) | _O(N)_ | _O(N)_ | Medium | Tree, Depth-First Search, Breadth-First Search, Binary Tree |  |
 | 0904 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees) | [C++](./solutions/./algorithms/0904-leaf-similar-trees.cpp) | _O(N + M)_ | _O(N + M)_ | Easy | Tree, Depth-First Search, Binary Tree |  |
 | 0907 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas) | [C++](./solutions/./algorithms/0907-koko-eating-bananas.cpp) | _O(N * log(max(piles)))_ | _O(1)_ | Medium | Array, Binary Search |  |
+| 0937 | [Online Stock Span](https://leetcode.com/problems/online-stock-span) | [C++](./solutions/./algorithms/0937-online-stock-span.cpp) | _O(N)_ | _O(N)_ | Medium | Stack, Design, Monotonic Stack, Data Stream |  |
+| 0945 | [Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders) | [C++](./solutions/./algorithms/0945-snakes-and-ladders.cpp) | _O(N^2)_ | _O(N^2)_ | Medium | Array, Breadth-First Search, Matrix |  |
+| 0954 | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray) | [C++](./solutions/./algorithms/0954-maximum-sum-circular-subarray.cpp) | _O(N)_ | _O(1)_ | Medium | Array, Divide and Conquer, Dynamic Programming, Queue, Monotonic Queue |  |
 | 0969 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls) | [C++](./solutions/./algorithms/0969-number-of-recent-calls.cpp) | _O(1)/O(N)_ | _O(N)_ | Easy | Design, Queue, Data Stream |  |
 | 1036 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges) | [C++](./solutions/./algorithms/1036-rotting-oranges.cpp) | _O(N * M)_ | _O(N * M)_ | Medium | Array, Breadth-First Search, Matrix |  |
 | 1046 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii) | [C++](./solutions/./algorithms/1046-max-consecutive-ones-iii.cpp) | _O(N)_ | _O(1)_ | Medium | Array, Binary Search, Sliding Window, Prefix Sum |  |
